@@ -27,3 +27,6 @@
 *.i*86
 *.x86_64
 *.hex
+
+# Junk MAC OSX Files
+*.DS_Store
