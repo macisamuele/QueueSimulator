@@ -2,7 +2,7 @@
 QueueSimulator for the Network Modelling Course of the Polytechnic University of Turin, Italy
 
 ## Laboratory 1
-Simulate M/M/1, M/G/k and M/G/k/B queues and plot the results of relevant measures. <br />
+Simulate a Queuing System M/M/1, M/G/k and M/G/k/B queues and plot the results of relevant measures. <br />
 The whole text of the laboratory session is the Request.pdf file in the directory "Laboratory 1"
 ### Compile
 To compile the sources you need to compile the code provided:
@@ -22,7 +22,7 @@ To use the simulator you need to run the analysis.sh script that will call the e
 <b>TODO</b>
 
 ## Laboratory 2
-Simulate a simple Queuing network (Two M/M/1 queues). <br />
+Simulate a simple Queuing Network (Two M/M/1 queues). <br />
 The whole text of the laboratory session is the Request.pdf file in the directory "Laboratory 2"
 ### Compile
 To compile the sources you need to compile the code provided:
