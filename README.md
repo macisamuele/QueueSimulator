@@ -19,7 +19,27 @@ To use the simulator you need to run the analysis.sh script that will call the e
 
 <b>REMARK</b>: the anaysis.sh script requires gnuplot and zip installed <br />
 ### Results
-<b>TODO</b>
+Inside the Laboratory 1 folder are available the results of the execution of
+
+    bash analysis.sh 1000000 19
+
+In the directory you will find a lot of plots with a lot of different measures (all are provided from the analysis.sh script) and a zip file containing all the raw results used for the plots, to allows also other plots or different analysis.
+
+### Code customization
+The main modification that you can need to implement is the definition of a different server.<br />
+In the current implementation are implemented Markovian, Erlang, HyperExponential and Deterministic.<br />
+If you really need to modify the file server.c adding: <br />
+ - in server_print function the summary of the server,
+ - in server_getUsage function the help of usage of the new servering distribution
+ - in server_init functions the correct initialization
+ - in server_getServiceTime function the generation process of the serving time
+ - in server_getAverageServiceRate the average service rate expected
+ - in server_getVarianceOfServiceTime function the variance expected of the service rate
+
+Apologize for the user <i>un-friendly</i> approach but the original simulator's request was really constrained.<br />
+For sure you have to apply only few modification to the code.
+
+Enjoy with this simulator.
 
 ## Laboratory 2
 Simulate a simple Queuing Network (Two M/M/1 queues). <br />
